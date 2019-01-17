@@ -66,3 +66,4 @@
 1880679/1 	Robinson, Thomas James 	thomas.robinson@kcl.ac.uk 	Current 	Web Intelligence 	
 1881242/1 	Li, Haonan 	haonan.li@kcl.ac.uk 	Current 	Computing And Internet Systems 	
 1883689/1 	Tyagi, Shefali 	shefali.tyagi@kcl.ac.uk 	Current 	Advanced Software Engineering With Management 	
+1771754/1 	Au Yeung, Ka Hang Jacky 	ka_hang_jacky.au_yeung@kcl.ac.uk
