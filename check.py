@@ -1,11 +1,12 @@
 #! /usr/bin/env python3
 
-import os
+import os, sys
 
 TEAMS_DIR = "."
 
 alls = [x.strip() for x in open(os.path.join(TEAMS_DIR, "students.txt")).readlines()]
 allocd = set()
+err = False
 for tl in os.listdir(TEAMS_DIR):
     if tl in [".git"]:
         continue
@@ -16,7 +17,12 @@ for tl in os.listdir(TEAMS_DIR):
         if m == "":
             continue
         if m in allocd:
-            print("Warning: %s appears in multiple teams" % m)
+            print("Error: %s appears in multiple teams" % m)
+            err = True
         if m not in alls:
-            print("Warning: %s not in student records" % m)
+            print("Error: %s not in student records" % m)
+            err = True
         allocd.add(m)
+
+if err:
+    sys.exit(1)
