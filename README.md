@@ -1,5 +1,13 @@
 # 7CCSMGPR 2019
 
+*Note* that all students *must* set `git` up to use your full name and King's
+email address e.g.:
+
+```
+$ git config --global user.name "John Smith"
+$ git config --global user.email "john.smith@kcl.ac.uk"
+```
+
 How to form a group:
 
   1. Designate a group coordinator.
@@ -45,15 +53,6 @@ How to form a group:
      coordinator's repository, the coordinator should run `python3 check.py` and
      ensure that no warnings are given about duplicated or incorect entries. If
      no warnings are printed, make a pull request against the main 7CCSMGPR
-     repository. In your message, state the group name, and confirm that you
-     have run `python3 check.py` successfully.
-
-*Note* that all students *must* set `git` up to use your full name and King's
-email address e.g.
-
-```
-$ git config --global user.name "John Smith"
-$ git config --global user.email "john.smith@kcl.ac.uk"
-```
+     repository. In your message, state the group name clearly.
 
 If you get any of these details wrong, you will be asked to try again.
